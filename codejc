@@ -33,7 +33,19 @@ $ git clone https://github.com/MCJC/pr "/Users/jc/Library/Mobile Documents/com~a
 cd "/Users/jc/Library/Mobile Documents/com~apple~CloudDocs/_JC_MisDocs/0_Baylor/PRLASsite/codices/"
 ##   5.  select the directory in the left panel
 ##       in Mac double click when opening files
-##   6.  Create a new file (e.g. README.md), add some content e.g. "Hello World", and save it
+##   6.  Create a new file (e.g. README.md), a
+Stage all git tab
+add commit message (as Author/date/time)
+Commit to master
+
+push
+Fetch
+
+
+
+
+
+dd some content e.g. "Hello World", and save it
 Click Stage All
 Add "Initial commit" for the commit message and click commit (it says "Create detached commit" at this point)
 Right-click "Fetch" in the status bar and choose "Push"
