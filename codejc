@@ -25,24 +25,19 @@
 ##
 ##  GITHUB
 ##  Initialize a Git repository
-
-Just to add more detail to these steps, can you confirm if this
- is still correct? This is what I did:
-
-Create a new empty repository on github.com (i.e. make sure Init
-ialize this repository with a README is not checked)
-
-Start Atom
-Copy the repository URL and use it to clone with GitHub: Clone
-Create a new file (e.g. README.md), add some content e.g. "Hello World", and save it
+##   1.  Create a repository on github.com
+##   2.  Start Atom
+##   3.  Copy the repository URL and clone it to NEW folder:
+$ git clone https://github.com/MCJC/pr "/Users/jc/Library/Mobile Documents/com~apple~CloudDocs/_JC_MisDocs/0_Baylor/PRLASsite/codices"
+##   4.  move to the new directory:
+cd "/Users/jc/Library/Mobile Documents/com~apple~CloudDocs/_JC_MisDocs/0_Baylor/PRLASsite/codices/"
+##   5.  select the directory in the left panel
+##       in Mac double click when opening files
+##   6.  Create a new file (e.g. README.md), add some content e.g. "Hello World", and save it
 Click Stage All
 Add "Initial commit" for the commit message and click commit (it says "Create detached commit" at this point)
 Right-click "Fetch" in the status bar and choose "Push"
 
-
-git clone https://github.com/MCJC/pr "/Users/jc/Library/Mobile Documents/com~apple~CloudDocs/_JC_MisDocs/0_Baylor/PRLASsite/codemjcc"
-
-cd "/Users/jc/Library/Mobile Documents/com~apple~CloudDocs/_JC_MisDocs/0_Baylor/PRLASsite/codemjcc/"
 
 
 
