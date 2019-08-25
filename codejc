@@ -14,14 +14,15 @@
 ##   from Atom:Settings:Install (win)
 ##
 ##    open terminal: cmd+alt+t
+##                   shf+alt+t (win)
+##
 ##   close terminal: sht+cmd+x
 ##
 ##   if the "platformio-ide-terminal:insert-selected-text" is not working
 ##   open keymap.cson and add this code:
-##     'atom-workspace atom-text-editor:not([mini])':
-##     'cmd-enter': 'platformio-ide-terminal:insert-selected-text'
+= 'atom-workspace atom-text-editor:not([mini])': 'cmd-enter': 'platformio-ide-terminal:insert-selected-text'
 ##
-################################################################################
+#####################################################################################
 ##
 ##  GITHUB
 ##  Initialize a Git repository
@@ -40,6 +41,9 @@ Commit to master
 
 push
 Fetch
+##
+#####################################################################################
+##
 
 
 
