@@ -1,0 +1,1168 @@
+##   date: 2019.08.13
+##
+################################################################################
+##
+##       To remove all directories and subdirectories use the rm command
+##       (to remove also files + all sub-directories files, "-rf")
+##         '$ rm -rf prlas/
+##
+##
+##
+##   download Atom (from: https://atom.io/) and install it
+##   install platformia-ide-terminal
+##   from Atom:Preferences:Install ()
+##   from Atom:Settings:Install (win)
+##
+##    open terminal: cmd+alt+t
+##   close terminal: sht+cmd+x
+##
+##   if the "platformio-ide-terminal:insert-selected-text" is not working
+##   open keymap.cson and add this code:
+##     'atom-workspace atom-text-editor:not([mini])':
+##     'cmd-enter': 'platformio-ide-terminal:insert-selected-text'
+##
+
+git@github.com:MCJC/prlas.git
+
+# git remote add prlas https://github.com/MCJC/prlas.git
+# Set a new remote
+
+$ git remote -v
+# Verify new remote
+> origin  https://github.com/user/repo.git (fetch)
+> origin  https://github.com/user/repo.git (push)
+
+
+
+Main user u98357520
+
+site:             https://www.ionos.com
+User:             juancarlos.esparzaochoa@gmail.com
+Password:         MJCC+seno=1987
+
+
+
+Login data:
+Host:             74.208.24.170
+User:             root
+Initial Password: Ii0Y82xu6o
+
+
+ssh root@74.208.24.170
+
+Ii0Y82xu6o
+
+exit
+
+
+Show Password
+DNS:
+DNS host name:c813b5e.online-server.cloud
+Image:
+Source:Ionos Images
+Operating system: CentOS 7
+Licenses:
+Plesk Onyx (Unlimited Domains)
+
+Plesk:
+Admin area:       https://74.208.24.170:8443
+User:             root
+Initial Password: Ii0Y82xu6o
+
+User:root
+Initial Password:Show Password
+IP:
+IPv4 address:
+74.208.24.170
+
+IPv6 address:
+No IPv6 address available
+
+Configuration:
+Type: Cloud Server L
+CPU: 2 vCore
+RAM:4 GB
+SSD: 120 GB
+Firewall Policies:
+74.208.24.170
+Linux + Plesk + dockers
+Private networks:No private network available.
+Monitoring Policies: Default Monitoring Policy
+USA
+Created on:8/24/19 10:19:33 PM
+Monitoring
+CPU
+24. Aug
+08:00
+16:00
+0%
+25%
+50%
+75%
+100%
+Last status:
+OK: 10.62% used
+
+RAM
+24. Aug
+08:00
+16:00
+0%
+25%
+50%
+75%
+100%
+Last status:
+OK: 12.99% used
+
+History
+Action	Date	Duration	Status
+Creating server	8/24/19 10:19:33 PM	48sec
+
+
+ssh pobrezay@pobrezayreligion.org.mx
+ls
+cd ~
+
+
+
+By default sudo is not installed on Debian, but you can install it. First enable su-mode:
+su -
+
+Install sudo by running:
+apt-get install sudo -y
+
+After that you would need to play around with users and permissions. Give sudo right to your own user.
+
+usermod -aG sudo yourusername
+
+Make sure your sudoers file have sudo group added. Run:
+visudo to modify sudoers file and add following line into it (if it is missing):
+
+# Allow members of group sudo to execute any command
+%sudo   ALL=(ALL:ALL) ALL
+You need to relogin or reboot device completely for changes to take effect.
+
+
+https://postgresapp.com/
+
+postgres
+
+servername:    PostgreSQL
+Database Port: 5432
+Data Directory: /Users/jc/Library/Application Support/Postgres/var-11
+config file:    /Users/jc/Library/Application Support/Postgres/var-11/postgresql.conf
+HBA file:       /Users/jc/Library/Application Support/Postgres/var-11/pg_hba.conf
+Log file:       /Users/jc/Library/Application Support/Postgres/var-11/postgresql.log
+
+
+Installation Directory: /Library/PostgreSQL/11
+Server Installation Directory: /Library/PostgreSQL/11
+Data Directory: /Library/PostgreSQL/11/data
+Database Port: 5432
+Database Superuser: postgres
+Operating System Account: postgres
+Database Service: postgresql-11
+Command Line Tools Installation Directory: /Library/PostgreSQL/11
+pgAdmin4 Installation Directory: /Library/PostgreSQL/11/pgAdmin 4
+Stack Builder Installation Directory: /Library/PostgreSQL/11
+
+
+
+
+
+Configure your $PATH to use the included command line tools (optional):
+
+sudo mkdir -p /etc/paths.d &&
+echo /Applications/Postgres.app/Contents/Versions/latest/bin | sudo tee /etc/paths.d/postgresapp
+Done! You now have a PostgreSQL server running on your Mac with these default settings:
+
+Host	localhost
+Port	5432
+User	your system user name
+Database	same as user
+Password	none
+Connection URL	postgresql://localhost
+
+To connect with psql, double click a database
+
+To connect directly from the command line, type psql.
+
+
+
+##
+##   download Acquia Dev Desktop to build Drupal local site on Mac
+##   (or to use Acquia Cloud Free developer sandbox)
+##   shttps://dev.acquia.com/downloads
+##
+##
+
+
+ssh pobrezay@pobrezayreligion.org.mx
+ls
+cd ~
+
+
+brew install inetutils
+brew install wget
+
+wget -r ftp://pobrezay:MJCCseno1987@pobrezayreligion.org.mx/etc/
+
+
+codejc
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+¬
+¬
+ftp¬
+¬
+open pobrezayreligion.org.mx¬
+prompt¬
+mget etc/*.*¬
+quit¬
+¬
+:pobrezay¬
+¬
+¬
+##   (or to use Acquia Cloud Free developer sandbox)¬
+##   shttps://dev.acquia.com/downloads¬
+##¬
+##¬
+¬
+¬
+ssh pobrezay@pobrezayreligion.org.mx¬
+ls¬
+cd ~·¬
+¬
+¬
+brew install inetutils¬
+brew install wget¬
+¬
+wget -r ftp://pobrezay:MJCCseno1987@pobrezayreligion.org.mx/etc/¬
+
+wget -r ftp://pobrezay:MJCCseno1987@pobrezayreligion.org.mx/jc/
+
+wget -r ftp://pobrezay:MJCCseno1987@pobrezayreligion.org.mx/myshapefile/
+
+wget -r ftp://pobrezay:MJCCseno1987@pobrezayreligion.org.mx/prlas/
+
+wget -r ftp://pobrezay:MJCCseno1987@pobrezayreligion.org.mx/proyecto.pobrezayreligion.org.mx/
+
+wget -r ftp://pobrezay:MJCCseno1987@pobrezayreligion.org.mx/public_ftp/
+
+wget -r ftp://pobrezay:MJCCseno1987@pobrezayreligion.org.mx/public_html/
+
+wget -r ftp://pobrezay:MJCCseno1987@pobrezayreligion.org.mx/saGketazabda/
+
+
+
+ls
+
+
+ftp pobrezayreligion.org.mx
+
+ftp
+
+open pobrezayreligion.org.mx
+prompt
+mget etc/*.*
+quit
+
+:pobrezay
+
+
+
+##   Now add these lines below to the top of your .bashrc file:
+[ -z "$PS1" ] && return
+[ -z "$PS1" ] && return
+pic:
+# .bashrc
+
+[ -z "$PS1" ] && return
+
+# Source global definitions
+
+help
+
+
+not useful:  yum -y install openssh-clients
+
+sudo cp -r pobrezay@pobrezayreligion.org.mx:/etc/ /Users/jc/Sites/AcuGISBackUp/etc/
+
+scp -r pobrezay@pobrezayreligion.org.mx:/etc/ /Users/jc/Sites/AcuGISBackUp/etc/
+
+scp -r /Users/jc/acugisbackup/etc/ /Users/jc/Sites/AcuGISBackUp/etc/
+
+
+MJCCseno1987
+
+
+
+Server / Host:     access795756598.webspace-data.io
+Port:              22
+Protocol:
+SFTP
+User name:
+u98357520
+Password:
+******
+Personal note:
+Main user for SFTP and SSH
+Directory:
+/.
+
+u98357520
+MJCCseno1987
+
+##   find if Debian:
+# ssh u98357520@access795756598.webspace-data.io
+##   find Debian version
+# cat /etc/debian_version
+##
+
+sudo apt-get update
+
+##   By default sudo is not installed on Debian. Install it by running:
+apt-get install sudo -y
+
+After that you would need to play around with users and permissions. Give sudo right to your own user.
+
+usermod -aG sudo yourusername
+
+Make sure your sudoers file have sudo group added. Run:
+visudo to modify sudoers file and add following line into it (if it is missing):
+
+# Allow members of group sudo to execute any command
+%sudo   ALL=(ALL:ALL) ALL
+You need to relogin or reboot device completely for changes to take effect.
+
+
+
+
+##   from:
+##   https://tecadmin.net/install-postgresql-on-debian/
+##   How to Install PostgreSQL 11 on Debian 8Debian 8.11 (jessie)   [by Nov 13, 2018]
+##   Step 1 – Prerequsities
+##   import PostgreSQL packages signing key:
+# wget -q https://www.postgresql.org/media/keys/ACCC4CF8.asc -O - | sudo apt-key add -
+Now add PostgreSQL apt repository in your system as per your operating system. These are suggested on official PostgreSQL website using following command.
+
+sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ jessie-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
+Step 2 – Install PostgreSQL on Debian 8
+At this stage, you have successfully added PostgreSQL official repository in your system. Now update the repository list. After that install Latest PostgreSQL Server in our Ubuntu system using following commands.
+
+sudo apt-get update
+sudo apt-get install postgresql postgresql-contrib
+Step 3 – Connect to PostgreSQL
+After installing the PostgreSQL database server by default, it creates a user ‘postgres’ with role ‘postgres’. It also creates a system account with the same name ‘postgres’. So to connect to postgres server, login to your system as user postgres and connect database.
+
+sudo su - postgres
+psql
+Now you are logged in to PostgreSQL database server. To check login info use following command from database command prompt.
+
+postgres-# \conninfo
+To disconnect from PostgreSQL database command prompt just type below command and press enter. It will return you back to Debian command prompt.
+
+postgres-# \q
+Your PostgreSQL installation has been completed successfully. Let’s move to phpPgAdmin installation of Ubuntu systems.
+##
+##
+##
+##
+##
+
+
+exit
+
+
+scp -r :/myshapefile/ /Users/Users/jc/Sites/AcuGISBackUp/
+##
+##   Composer is a dependency manager.
+##   It supports a "global" project for convenience via the global command.
+##   Suppose:
+##   You have a project that depends on a number of libraries.
+##   Some of those libraries depend on other libraries.
+##   Composer:
+##             Enables you to declare the libraries you depend on.
+##             Finds out versions of which packages can/need to be installed,
+##             and installs them
+##
+##   from: https://getcomposer.org/download/
+##   HomeGetting StartedDownloadDocumentationBrowse Packages
+##   To quickly install Composer in current directory run following script
+##   current is jc:devdesktop
+##
+##   until seeing Desktop:
+#      cd ..
+#      ls
+##   then:
+#      cd Desktop/sites/devdesktop
+##   This will download the installer to the current directory
+##   (the latest composer.phar):
+##
+#      php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+##
+##   This will check some php.ini settings & warn if they are set incorrectly
+##   (verify the installer SHA-384):
+##
+#      php -r "if (hash_file('sha384', 'composer-setup.php') === 'a5c698ffe4b8e849a443b120cd5ba38043260d5c4023dbf93e1558871f1f07f58274fc6f4c93bcfd858c6bd0775cd8d1') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+##
+##   This will run the installer:
+##
+#     php composer-setup.php
+##
+##   This will remove the installer:
+##
+#      php -r "unlink('composer-setup.php');"
+##
+##   from: https://github.com/drupal-composer/drupal-project
+##   Composer template for Drupal projects
+##   starter kit for managing site dependencies with Composer
+##   create the project in "some-dir"(prls) directory:
+##   composer create-project drupal-composer/drupal-project:8.x-dev some-dir --no-interaction
+##
+#      composer create-project drupal-composer/drupal-project:8.x-dev prlas --no-interaction
+##
+##   composer create-project command passes files ownership to the project
+##   Drupal will be installed in the web-directory.
+##   Autoloader is implemented to use the generated composer autoloader in
+##   vendor/autoload.php, instead of web/vendor/autoload.php
+##   Modules (packages type drupal-module) will be placed in web/modules/contrib/
+##   Theme (packages type drupal-theme) will be placed in web/themes/contrib/
+##   Profiles (packages type drupal-profile) will be placed in web/profiles/contrib/
+##   Creates default writable versions of settings.php and services.yml.
+##   Creates web/sites/default/files-directory.
+##   Latest version of drush is installed locally for use at vendor/bin/drush.
+##   Latest version of DrupalConsole is installed locally for use at vendor/bin/drupal.
+##   Creates environment variables based on your .env file
+##
+##
+##
+##   install (if not before) and open Acquia Dev Desktop
+##   import Drupal local site by selecting the site codebase folder "prlas\web"
+##   shttps://dev.acquia.com/downloads
+##   set site name to prlas
+##   select PHP 7.2 or higher
+##
+##
+##
+##   Designate trusted hosts
+##   Drupal 8 has a built in error -configuration:Status Report
+##   a vulnerability could let attackers control site
+##
+##   on local inst: in prlas/web/sites/default/settings.php, find "trusted_host",
+##   copy example code & paste it between this comment block and the next one
+##     * $settings['trusted_host_patterns'] = [
+##     *   '^www\.example\.com$',
+##     * ];
+##   replace asterisks and match site
+##   (everything before the first slash, except for the port number)
+##   any dot needs a back slash before it
+##       $settings['trusted_host_patterns'] = [
+##         '^prlas\.dd$',
+##       ];
+##   It's a good idea to add local host to the list:
+##       $settings['trusted_host_patterns'] = [
+##         '^prlas\.dd$',
+##         '^localhost$',
+##       ];
+##   save file (confirm) and reload my Status Report to check
+##
+##   on a web host:
+##
+##
+##   With composer require [project-shortname] you download modules and themes:
+##     cd some-dir
+##     composer require drupal/<modulename>
+##
+#      cd prlas
+##
+#      composer require drupal/bootstrap
+##   This theme requires base theme bootstrap to operate correctly:
+#      composer require drupal/bootstrap_pointnet
+##
+##   This theme is simple:
+#      composer require drupal/mayo
+##   This theme to test:
+#      composer require drupal/mili
+##
+##
+##   This theme tested -- no:
+#      composer require drupal/adaptivetheme
+#      composer require drupal/at_tools
+##   Enable the module using the Drupal UI navigate to the Extend page
+##   Locate the module(s), check the box, and click Install
+##
+##
+##   needs to be executed at the root of Drupal install not of core directory
+##   updates composer.json adding the module to other listed requirements
+##   will download module + all possible dependencies
+##
+##   enable theme by going to "Appearnce:List:Uninstalled Themes"
+##
+##   You can specify the version of module/theme to download:
+##     composer require 'drupal/<modulename>:<version>'
+##   For example:
+##     composer require 'drupal/token:^1.5'                - latest stable 8.x-1.x release
+##     composer require 'drupal/simple_fb_connect:~3.0'    - latest stable 8.x-3.x release
+##     composer require 'drupal/ctools:3.0.0-alpha26'      - version 8.x-3.0-alpha26
+##     composer require 'drupal/token:1.x-dev'             - 8.x-1.x-dev
+##   To avoid problems surround version in quotes
+##   ver constraints with ~ (tilde) and ^ (caret) Next Significant Release Operators
+##   can be updated to later ver but Composer won't automatically update to released
+##
+##
+##
+################################################################################
+##   Setup a working Responsive Image in Drupal 8   ############################
+################################################################################
+##
+##=> modules
+##   The following modules, under media (/admin/config), should be enabled:
+##
+##   MEDIA
+##   Image styles
+##   Responsive image styles
+##   Image toolkit
+##
+##   To enable module, go to http://www.yoursite.com/admin/modules
+##   select the module and install it
+##
+##
+##=> breakpoints
+##   Default themes have the file theme.breakpoints.yml in the root of the theme directory
+##
+##   Mayo has:
+##            mayo.smalltouch:
+##              label: smalltouch portrait
+##              mediaQuery: 'only screen and(min-width: 0px) and (max-width: 320px)'
+##              weight: 4
+##              multipliers:
+##                - 1x
+##            mayo.smalltouch_landscape:
+##              label: smalltouch landscape
+##              mediaQuery: 'only screen and (min-width: 321px) and (max-width: 480px)'
+##              weight: 3
+##              multipliers:
+##                - 1x
+##            mayo.tablet:
+##              label: tablet portrait
+##              mediaQuery: 'only screen and (min-width: 481px) and (max-width: 768px)'
+##              weight: 2
+##              multipliers:
+##                - 1x
+##            mayo.tablet_landscape:
+##              label: tablet landscape
+##              mediaQuery: 'only screen and (min-width: 769px) and (max-width: 1024px)'
+##              weight: 1
+##              multipliers:
+##                - 1x
+##            mayo.big_screen:
+##              label: big screen
+##              mediaQuery: 'only screen and (min-width: 1025px)'
+##              weight: 0
+##              multipliers:
+##                - 1x
+##
+##   These correspond to LAYOUT SETTINGS at /admin/appearance/settings/mayo:
+er background image is selected, header borders are not drawn to make it look better.
+##            BIG SCREEN SIDEBAR LAYOUT
+##            TABLET     SIDEBAR LAYOUT : LANDSCAPE
+##                                      : PORTRAIT
+##            SMALLTOUCH SIDEBAR LAYOUT : LANDSCAPE
+##                                      : PORTRAIT
+##
+##   Each breakpoint will tell Drupal what image size to load when the browser is at each width
+##   breakpoints weight should be listed from smallest mediaQuery to largest mediaQuery.
+##   (the multipliers allow us to display a crisper image for HD and retina display)
+##
+##
+##=> image styles
+##   we need one image style (for responsive images) for each breakpoint
+##   ( check them at /admin/config/media/image-styles)
+##   each has "style name", "Machine-readable name", & "Effect" (w/parameters)
+##
+##   Mayo has:
+##            Large (480×480)
+##            Max 325x325
+##            Max 650x650
+##            Max 1300x1300
+##            Max 2600x2600
+##            Medium (220×220)
+##            Thumbnail (100×100)
+##
+##
+##
+##=> responsive image styles
+. Go to http://www.yoursite.com/admin/config/media/responsive-image-style and click "Add responsive image styles" button.
+##
+##Create responsive image style
+##Step 5: Responsive Image styles
+##We will now assign the image styles with the breakpoints, to create the Responsive Image styles.
+##
+##
+##Go to ‘Home > Administration > Configuration > Media’ (/admin/config/media/responsive-image-style) and click on ‘Add responsive image’.
+##For this tutorial, I will call it ‘Header Image’ since this will be used for the header images of my posts.
+##
+##
+##Type in the name of your responsive image.Responsive Image style
+##From the drop-down in ‘Breakpoint group’, choose your_theme_name.
+##
+##
+##Click Save.
+##Assign image styles to every breakpoint defined in “your_theme_name.breakpoints.yml”.
+##
+##Responsive Image styles assigned to each breakpoints
+##
+##Step 6: Assign the responsive image style to an image field
+##
+##
+##Go to the content type where you want the responsive image style to be used.
+##Click ‘Manage fields’.
+##
+##Responsive image setup in a content type image field
+##
+##
+##Click the gear icon on the right side.
+##
+##From the drop-down under ‘Responsive Image style’, choose the responsive image style you created.
+##
+##Image formatter setup in content type image field
+
+
+##
+##Populate the "Label" with "Global image style". Select "Site optimization" from "Breakpoint group" dropdown menu. Collapse the "1x big screen [(min-width: 1025px)]", select the "Select a single image style." option from "Type" and select "Image full (max width 1100px)" from "Image style" dropdown menu. Collapse the "1x tablet landscape [(min-width: 769px)]", select the "Select a single image style." option from "Type" and select "Image full (max width 1100px)" from "Image style" dropdown menu. Collapse the "1x tablet portrait [(min-width: 481px)]", select the "Select a single image style." option from "Type" and select "Image part full (max width 768px)" from "Image style" dropdown menu. Collapse the "1x smalltouch landscape [(min-width: 321px)]", select the "Select a single image style." option from "Type" and select "Image half (max width 480px)" from "Image style" dropdown menu. Collapse the "1x smalltouch portrait [(min-width: 1px)]", select the "Select a single image style." option from "Type" and select "Image quarter (max width 320px)" from "Image style" dropdown menu. In "Fallback image style" dropdown menu select "Image quarter (max width 320px)" option and click "Save" button.
+##
+##Responsive image style settings
+##
+##To test, create a content and upload an image inside the Body field. Click "Source" button on WYSIWYG to edit the HTML code of the uploaded image and insert data-responsive-image-style="global_image_style" inside the img tag. Click "Save and publish" button.
+##
+##Create test content
+##
+##The output HTML of the test image should have picture tag.
+##
+##Responsive image test result
+##
+##Tags
+##Drupal 8
+##Drupal
+##Web Optimization
+##Add new comment
+##Your name
+##Subject
+##Comment
+##About text formats
+##Allowed HTML tags: <a href hreflang> <em> <strong> <cite> <blockquote cite> <code> <ul type> <ol start type> <li> <dl> <dt> <dd> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id>
+##Lines and paragraphs break automatically.
+##
+##Featured
+##Step by step guide to setup Apache Solr 5.x in CentOS 7 for Drupal 7 Panopoly distro using Search API
+##As of this writing, the latest version of Solr is 5.2.1. In this step by step guide we will install that version and integrate it with Drupal 7 Panopoly distro site using Search API module. Actually, Panopoly distro is already shipped with Search API and Search API Solr Search modules. All we need to do is to configure the pre-setup Search API Solr server and index. The good thing about using Search API is that it is already integrated with Views module and we can do unlimited customization with our search results.
+##
+##Tags
+##Solr
+##Web Optimization
+##Drupal 7
+##Drupal
+##Search API
+##Read more about Step by step guide to setup Apache Solr 5.x in CentOS 7 for Drupal 7 Panopoly distro using Search API
+##22 comments
+##Add new comment
+##Using SASS in Bootstrap Drupal theme
+##As of this writing, Bootstrap Drupal theme only supports LESS. This tutorial will show how to create bootstrap sub-theme supporting SASS and use Grunt to manage our workflow effectively. My operating system is Windows. Therefore, the shell commands, output, etc. that will be shown here are for Windows.
+##
+##Tags
+##Frontend web development tools
+##CSS
+##SASS
+##Compass
+##Grunt
+##Drupal 7
+##Drupal
+##Bootstrap
+##Node.js
+##Read more about Using SASS in Bootstrap Drupal theme
+##14 comments
+##Add new comment
+##Monthly archive
+##August 2019 (1)
+##July 2019 (1)
+##June 2019 (1)
+##May 2019 (1)
+##April 2019 (1)
+##March 2019 (1)
+##February 2019 (1)
+##January 2019 (1)
+##December 2018 (1)
+##November 2018 (1)
+##Pagination
+##Page 1 Next page››
+##Footer menu
+##Privacy Policy  Sitemap  Contact
+##Copyright © 2014-2019 Webfoobar.com. All Rights Reserved.
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##And we are done!
+##
+##To check, add a new content piece and add an image to the image field (make sure you are in the right content type). Resize your browser to the browser size defined in your your_theme_name.breakpoints.yml.
+##
+##Right-click on the image and click ‘inspect’. In ‘network > img’ you will see the name of the image style that your image is using based on the browser size.
+##
+##Responsive image on a small device
+##My image at a minimum width of 0px breakpoint.
+##
+##
+##responsive image at a medium device
+##My image at a minimum width of 740px breakpoint.
+##
+##responsive image at a large device
+##My image at a minimum width of 1200px breakpoint.
+##
+##
+##And we are done! Your image should now be resized based on the browser size without losing its quality.
+##
+##Special thanks go to Raymond Angana, Andrew Kucharski and Luc Bézier for contributing to this post before publication.
+##Comments
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+################################################################################
+##                                                                            ##
+##       ALL THE FOLLOWING CODE SHOULD BE UPDATED TO BE USED INSTEAD OF       ##
+##            Acquia Dev Desktop to build Drupal local site on Mac            ##
+##                                                                            ##
+################################################################################
+#  from: COOLEST GUIDES ON THE PLANET
+#  Install Apache, MySQL, PHP on macOS High Sierra 10.13
+#  https://coolestguidesontheplanet.com/install-apache-mysql-php-and-phpmyadmin-on-macos-high-sierra-10-13/
+#  Neil Gee
+#  September 28, 2017
+###############################################################
+#####    to run any selection use  <<   [CMD] + r   >>    #####
+###############################################################
+#  Get your Local Web Development Environment Up & Running on macOS High Sierra 10.13
+#  Get Apache, MySQL, PHP (the ‘AMP’ stack) and phpMyAdmin running on Mac OS High Sierra
+#   1   Apache/WebSharing
+#   2   Webroot – System and User level
+#   3   .htaccess overrides and mod rewrites
+#       Override .htaccess and allow URL Rewrites
+
+#   3   Override .htaccess and allow URL Rewrites
+
+
+#       PHP
+#       MySQL
+#       phpMyAdmin
+#       Permissions
+
+#   1   Apache/WebSharing
+
+# Web serving is built into High Sierra with Apache app, it is installed ready to be fired up
+# This needs to be done in the Terminal which is found in the OS filing system at /Applications/Utilities/Terminal
+# Note: some  commands give you no response – it just means the command is done
+#       other commands give you feedback
+# The prefix of sudo is required for commands that have their applications protected in certain folders
+# when using sudo you will need to confirm with your admin password or iCloud password
+# ask for    ACeq1907
+# -> to   start   Apache web sharing
+##      sudo apachectl start
+# -> to   stop    Apache web sharing
+##      sudo apachectl stop
+# -> to   restart Apache web sharing
+##      sudo apachectl restart
+# -> to   find the Apache version
+##      httpd -v
+# The Apache version that comes in macOS High Sierra is Apache/2.4.27
+#                                  JCMacBook reports:   Apache/2.4.33 (Unix)  /  Server built: Apr 3 2018 23:45:11
+# After starting Apache – test to see if the webserver is working in the browser
+# enter – http://localhost – you should see the “It Works!” text
+# If not,
+# -> to   troubleshoot Apache to see if there is anything wrong in its config file by running
+##      apachectl configtest
+# This will give you an indication of what might be wrong.
+
+#   2   Webroot – System and User level
+
+# Document root is the location where the files are shared from the file system
+# it is similar to the traditional names of ‘public_html‘ and ‘htdocs‘
+# macOS has historically had 2 web roots one at a system level and one at a user level
+# you can set both up or just run with one
+# the user level one allows multiple accounts to have their own web root
+# whilst the system one is global for all users
+# It seems there is less effort from Apple in continuing with the user level one
+# but it still can be set up with a couple of extra tweaks in configuration files
+# It is easier to use the user level one as you don’t have to keep on authenticating as an admin user
+# Notice that: System Level Web Root, the default system document root is still found at: http://localhost/
+#              files are shared in the filing system at /Library/WebServer/Documents/
+# User Level Root:
+# The other web root directory which is missing by default is the ‘~/Sites’ folder in the User account
+# This takes a bit longer to set up but some users are very accustomed to using it
+# ->   You need to make a
+#    “Sites”
+#      folder at the root level of your account (before setting up the user configuration file described next)
+# Sites folder has a unique icon which is a throwback from a few versions older (a clock-like)
+# ->   tweaks to get the ~/Sites folder back up and running
+#    Add (if not there) a “username.conf” file under /etc/apache2/users/
+# location and permissions/ownership easier using text editor ‘nano‘
+# ->   get to the right spot
+##   cd /etc/apache2/users
+# ->   know your account shortname
+##   whoami
+#---------------------------------------------------------------------------------------------------#
+#- \/ ----------------------------------------------------------------------------------------------#
+# ->   open text editor (‘username‘ = account’s shortname)
+##   sudo nano jc.conf
+# --->    add content
+##            <Directory "/Users/username/Sites/">
+##                AllowOverride All
+##                Options Indexes MultiViews FollowSymLinks
+##                Require all granted
+##            </Directory>
+# --->    type INSIDE tex editor...
+#        ->   save the changes             typing:  [CTRL+o]
+#        ->   confirm saving the changes   typing:  [enter]
+6#        ->   exit the text editor         typing:  [CTRL+x]
+#- /\ ----------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------#
+# ->   check permissions
+##   ls -in
+# Permissions on the file should be:
+# -rw-r--r--   1 root  wheel  298 Jun 28 16:47 username.conf
+# If not,
+# ->   change permissions
+##   sudo chmod 644 jc.conf
+#---------------------------------------------------------------------------------------------------#
+#- \/ ----------------------------------------------------------------------------------------------#
+# ->   open the main httpd.conf and allow some modules (text editor)
+##   sudo nano /etc/apache2/httpd.conf
+# --->    make sure these modules are uncommented
+# --->    (the first 2 should already be on a clean install)
+##            LoadModule authz_core_module libexec/apache2/mod_authz_core.so
+##            LoadModule authz_host_module libexec/apache2/mod_authz_host.so
+##            LoadModule userdir_module libexec/apache2/mod_userdir.so
+##            LoadModule include_module libexec/apache2/mod_include.so
+##            LoadModule rewrite_module libexec/apache2/mod_rewrite.so
+# --->    whilst this file is open, get php running uncommenting (see PHP section)
+##            LoadModule php7_module libexec/apache2/libphp7.so
+# --->    also uncomment this configuration file which allows user home directories
+##            Include /private/etc/apache2/extra/httpd-userdir.conf
+# --->    type INSIDE tex editor...
+#        ->   save the changes             typing:  [CTRL+o]
+#        ->   confirm saving the changes   typing:  [enter]
+#        ->   exit the text editor         typing:  [CTRL+x]
+#- /\ ----------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------#
+#- \/ ----------------------------------------------------------------------------------------------#
+# ->   open another Apache config file to uncomment another row
+##   sudo nano /etc/apache2/extra/httpd-userdir.conf
+# --->    and uncomment:
+##            Include /private/etc/apache2/users/*.conf
+# --->    type INSIDE tex editor...
+#        ->   save the changes             typing:  [CTRL+o]
+#        ->   confirm saving the changes   typing:  [enter]
+#        ->   exit the text editor         typing:  [CTRL+x]
+#- /\ ----------------------------------------------------------------------------------------------#
+#---------------------------------------------------------------------------------------------------#
+# ->   restart Apache for the new file to be read
+##      sudo apachectl restart
+# Then user level document root work - test in the browser
+# enter – http://localhost/~username/ – you should only see a directory structure (folder is empty)
+# also test to see if the main site is working as well
+# enter – http://localhost – you should see the “It Works!” text
+
+#   3   Override .htaccess and allow URL Rewrites
+
+# If you are going to use the web serving document root at /Library/WebServer/Documents it is a good idea to allow any .htaccess files used to override the default settings – this can be accomplished by editing the httpd.conf file at line 217 and setting the AllowOverride to All and then restart Apache. This is already taken care of at the Sites level webroot by following the previous step.
+#
+# sudo nano /etc/apache2/httpd.conf
+#
+#
+# osx-htaccess-override
+# osx-htaccess-override
+#
+# Also whilst here allow URL rewrites so your permalinks look clean not ugly.
+#
+# Uncomment in httpd.conf – should be uncommented on a clean install.
+#
+# LoadModule rewrite_module libexec/apache2/mod_rewrite.so
+#
+#
+# PHP
+# PHP 7.1.7 is a first for macOS and is loaded in this version of macOS High Sierra and needs to be turned on by uncommenting a line in the httpd.conf file.
+#
+# sudo nano /etc/apache2/httpd.conf
+# Use “control” + “w” to search within nano and search for ‘php’ this will land you on the right line then uncomment the line (remove the #):
+#
+# LoadModule php7_module libexec/apache2/libphp7.so
+# Write out and Save using the nano short cut keys at the bottom ‘control o’ and ‘control x’
+#
+# Reload apache to kick in
+#
+# sudo apachectl restart
+# To see and test PHP, create a file name it “phpinfo.php” and file it in your document root with the contents below, then view it in a browser.
+#
+#  <?php phpinfo(); ?>
+# php7-macos-sierra
+#
+# MySQL
+# MySQL doesn’t come pre-loaded with macOS High Sierra and needs to be dowloaded from the MySQL site.
+#
+# The latest version of MySQL 5.7.19 does work with the public release of macOS.
+#
+# If you already have MySQL 5.7 and you have upgraded OS from El Capitan to Sierra I expect that to be ok, but will be interested if anyone comments on that.
+#
+# Use the Mac OS X 10.12 (x86, 64-bit), DMG Archive version (works on macOS High Sierra).
+#
+# If you are upgrading from a previous macOS and have an older MySQL version you do not have to update it. One thing with MySQL upgrades always take a data dump of your database in case things go south and before you upgrade to macOS High Sierra make sure your MySQL Server is not running.
+#
+# When downloading you don’t have to sign up, look for » No thanks, just take me to the downloads!  – go straight to the download mirrors and download the software from a mirror which is closest to you.
+#
+# macos-mysql-10-3-sierra
+#
+# Once downloaded open the .dmg and run the installer.
+#
+# When it is finished installing you get a dialog box with a temporary mysql root password – that is a MySQL root password not a macOS admin password. But I have found that the temporary password is pretty much useless so we’ll need to change it straight away, but first it is better to add mysql commands to your shell path.
+#
+# You are told:
+#
+# If you lose this password, please consult the section How to Reset the Root Password in the MySQL reference manual.
+#
+# mysql-password-macos-sierra
+#
+#
+#
+# Add Mysql to your path
+# After installation, in order to use mysql commands without typing the full path to the commands you need to add the mysql directory to your shell path, (optional step) this is done in your “.bash_profile” file in your home directory, if you don’t have that file just create it using vi or nano:
+#
+# cd ; nano .bash_profile
+# export PATH="/usr/local/mysql/bin:$PATH"
+# The first command brings you to your home directory and opens the .bash_profile file or creates a new one if it doesn’t exist, then add in the line above which adds the mysql binary path to commands that you can run. Exit the file with type “control + x” and when prompted save the change by typing “y”. Last thing to do here is to reload the shell for the above to work straight away.
+#
+# source ~/.bash_profile
+# Change the MySQL root password
+# Note that this is not the same as the root or admin password of macOS – this is a unique password for the mysql root user.
+#
+# Stop MySQL
+#
+# sudo /usr/local/mysql/support-files/mysql.server stop
+# Start it in safe mode:
+#
+# sudo mysqld_safe --skip-grant-tables
+# This will be an ongoing command until the process is finished so open another shell/terminal window, and log in without a password as root:
+#
+# mysql -u root
+# FLUSH PRIVILEGES;
+# ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass';
+# Change the lowercase ‘MyNewPass’ to what you want – and keep the single quotes.
+#
+# \q
+# Start MySQL
+#
+# sudo /usr/local/mysql/support-files/mysql.server start
+# Starting MySQL
+# You can then start the MySQL server from the System Preferences or via the command line.
+#
+# macos-sierra-mysql
+#
+#
+#
+# osx-yosemite-mysql
+#
+# Or to Command line start MySQL.
+#
+# sudo /usr/local/mysql/support-files/mysql.server start
+# To find the MySQL version from the terminal, type at the prompt:
+#
+# /usr/local/mysql/bin/mysql -v -uroot -p
+# This also puts you in to a shell interactive dialogue with mySQL, type \q to exit.
+#
+#
+#
+# Fix the 2002 MySQL Socket error
+# Fix the looming 2002 socket error – which is linking where MySQL places the socket and where macOS thinks it should be, MySQL puts it in /tmp and macOS looks for it in /var/mysql the socket is a type of file that allows mysql client/server communication.
+#
+# sudo mkdir /var/mysql
+# sudo ln -s /tmp/mysql.sock /var/mysql/mysql.sock
+# phpMyAdmin
+# First fix the 2002 socket error if you haven’t done so from the MySQL section-
+#
+# sudo mkdir /var/mysql
+# sudo ln -s /tmp/mysql.sock /var/mysql/mysql.sock
+# phpmyadmin-macos-sierra
+#
+# Download phpMyAdmin, the zip English package will suit a lot of users, then unzip it and move the folder with its contents into the document root level renaming folder to ‘phpmyadmin’.
+#
+# Make the config folder
+#
+# mkdir ~/Sites/phpmyadmin/config
+# Change the permissions
+#
+# chmod o+w ~/Sites/phpmyadmin/config
+# Run the set up in the browser
+#
+# http://localhost/~username/phpmyadmin/setup/ or http://localhost/phpmyadmin/setup/
+#
+#
+#
+# You need to create a new localhost mysql server connection, click new server.
+#
+#
+#
+#
+# Switch to the Authentication tab and set the local mysql root user and the password.
+# Add in the username “root” (maybe already populated, add in the password that you set up earlier for the MySQL root user set up, click on save and you are returned to the previous screen.
+# (This is not the macOS Admin or root password – it is the MySQL root user)
+#
+#
+#
+# Now going to http://localhost/~username/phpmyadmin/ will now allow you to interact with your MySQL databases.
+#
+#
+#
+#
+#
+# Permissions
+# To run a website with no permission issues it is best to set the web root and its contents to be writeable by all, since it’s a local development it shouldn’t be a security issue.
+#
+# Lets say that you have a site in the User Sites folder at the following location ~/Sites/testsite you would set it to be writeable like so:
+#
+# sudo chmod -R a+w ~/Sites/testsite
+# If you are concerned about security then instead of making it world writeable you can set the owner to be Apache _www but when working on files you would have to authenticate more as admin you are “not” the owner, you would do this like so:
+#
+# sudo chown -R _www ~/Sites/testsite
+# This will set the contents recursively to be owned by the Apache user.
+#
+# If you had the website stored at the System level Document root at say /Library/WebServer/Documents/testsite then it would have to be the latter:
+#
+# sudo chown -R _www /Library/WebServer/Documents/testsite
+# Another easier way to do this if you have a one user workstation is to change the Apache web user from _www to your account.
+#
+# That’s it! You now have the native AMP stack running on top of macOS High Sierra.
+#
+# Share this:
+# TwitterGoogleFacebook10
+# Related
+# Get Apache, MySQL, PHP and phpMyAdmin working on macOS Sierra
+# Get Apache, MySQL, PHP and phpMyAdmin working on macOS Sierra
+# September 23, 2016
+#
+# In "macOS"
+#
+# Get Apache, MySQL, PHP and phpMyAdmin working on OSX 10.11 El Capitan
+# Get Apache, MySQL, PHP and phpMyAdmin working on OSX 10.11 El Capitan
+# November 19, 2015
+#
+# In "macOS"
+#
+# Fastest Way to install WordPress on OSX 10.11, 10.10, 10.9, 10.8, 10.7 and 10.6
+# Fastest Way to install WordPress on OSX 10.11, 10.10, 10.9, 10.8, 10.7 and 10.6
+# July 21, 2016
+#
+# In "macOS"
+#
+# Cats: macOS, WebDev, WebRoot
+# Tags: macos sierra
+#
+#
+# Faster WordPress Hosting
+# Subscribe to the Latest Posts
+#
+# Add in your email address...
+#
+# Tags
+# apache backup baseband Bing boot Coolest Guy on the Planet Coolest Guy Planet cpanel css custom database drupal el capitan error Firmware Google image instadmg ios iphone jailbreak keys Keywords lion mac macos sierra mysql OSX PageRank php private public Rank Rank Checker ranking remote rsa SEO SERPS shell ssh terminal Twitter unstoppables Yahoo
+# Get DesktopServer
+#
+# Donate A Beer To The Coolest Guides
+# PayPal - The safer, easier way to pay online.
+#
+# Deploy Your Apps on DigitalOcean Cloud
+# Copyright © 2018· Neil Gee - All Rights Reserved - Hosted by Cloudways and Vultr
+#
+#
+#
+#
